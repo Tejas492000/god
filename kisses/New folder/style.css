@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Montserrat:wght@200&family=Noto+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Montserrat:wght@200&family=Noto+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color:rgb(199, 197, 197);
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+}  
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+list-style: none;
+font-size: 20px;
+padding-left: 0px;
+padding-bottom: 30px;
+padding-top: 20px;
+padding-right: 0px;
+font-weight: bold;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+    }
+
+.main{
+   /*background-color:purple;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color:palevioletred;*/
+    height: 48vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    
+}
+.devPic img{
+    height: 300px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 90px;
+    
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    padding: 16px;
+
+}
+.Hello{
+    font-size: 3em;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.about{
+    font-size: 2.5em;
+
+}
+.buttons button{
+    
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.button{
+    margin: 10px;
+}
+.button:hover{
+    color:dodgerblue;
+    background-color: white;
+}
+.buttonss button{
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    
+}
+
+.Moreabout{
+    font-size: 22px;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    margin-top: 11px;
+}
+.contactform{
+    font-family: 'Fira Mono', monospace;
+    padding-left:40px;
+    padding-top: 10px;
+    margin-left:  210px;
+    
+
+}
+.contactform  h1{
+  
+    font-family: 'Source Code Pro', monospace;
+
+}
+.contactform form div{
+    padding: 3px;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+    
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+    
+}
+.contactform form{
+    
+    
+    margin: 0 30px;
+    
+}
+#emailHelp{
+    margin: 0px 0px;
+    font-size: 11px;
+    color: midnightblue;
+}
+#form-check{
+    flex-direction: row;
+    font-size: 14px;
+}
+#form-check input{
+    width: 18px;
+    margin: 3px 0;
+}
+label.form-label{
+    padding-top: 11px;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.projectItem{
+    margin: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.projectContainer h1{
+    font-family:  'Roboto', sans-serif;
+    margin: 23px;
+
+}
+.projectContainer{
+    margin-left: 200px;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+
+.intro h2{
+    font-family:  'Roboto', sans-serif;
+    margin: 12px;
+
+}
+.intro p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+
+}
+.intro{
+    margin-left: 200px;
+}
+.skill{
+    width: 223px;
+    height: 5px;
+    background-color:indianred;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    margin: 12px;
+    align-items: center;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 160px;
+}
+@media (max-width: 1650px) {
+    *{
+        /*background-color: aqua;*/
+    }
+    .devPic{
+        display:none;
+    }
+    .intro,.projectContainer,.contactform{
+        margin: 50px 8px;
+    }
+    
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position:absolute;
+    }*/
+    
+}
+/* Default styles for the profile picture */
+
+  
+  
